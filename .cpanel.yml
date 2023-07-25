@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/dork2door/repositories/LandingPage
+    - export DEPLOYPATH=/home2
     - index.html $DEPLOYPATH
     - style.css $DEPLOYPATH
